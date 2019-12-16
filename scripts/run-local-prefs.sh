@@ -10,9 +10,6 @@ bash <<EOF
 python 2>/dev/null <<EOC
 import gi
 EOC
-if [ \$? -eq 1 ]; then
-    pew toggleglobalsitepackages
-fi
 PYTHONPATH=. python3 guake/main.py --no-startup-script -p
 echo "Done"
 EOF

@@ -30,7 +30,6 @@ pathlib2 = "*"
 scandir = {markers = "python_version < '3.5'"}
 pyfakefs = "*"
 pytest-cov = "*"
-pew = "*"
 
 [packages]
 pbr = "*"
